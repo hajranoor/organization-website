@@ -1,0 +1,37 @@
+.navbar {
+    /* background-color: #f8f9fa; /* Adjust this color to your design */
+    /* padding: 1rem; */ 
+    background-color: #6d859f;
+    height: 60px;
+    padding: 15px 20px; 
+    padding-right: 50px;
+    font-family: "Playwrite NG Modern", cursive;
+
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000; /* Adjust this color to your design */
+    /* font-weight: 500; */
+  }
+  
+  .navbar a.active {
+    font-weight: bold;
+    color: #cbd6da; /* Active link color */
+  }
+
+  .navbar a:last-child{
+    margin-right: 20px;
+  }
+  

@@ -1,0 +1,79 @@
+/* src/components/TeamMembers.css */
+
+.team-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .team-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .team-description {
+    font-size: 1.1rem;
+    color: #cbd6da;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .card-role {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #777;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .card-socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .card-socials a {
+    color: #555;
+    font-size: 1.2rem;
+  }
+  
+  .card-socials a:hover {
+    color: #000;
+  }
+  
